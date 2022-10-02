@@ -1,0 +1,30 @@
+.search-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 3.5rem 0 1.5rem 0;
+}
+
+.search-container > h1 {
+	font-size: 3rem;
+}
+
+.search-container > div {
+	border: 1px solid lightgray;
+	padding: 0.5rem 0.8rem;
+	border-radius: 0.5rem;
+}
+
+.search-container > div > input {
+	background-color: transparent;
+	border: none;
+	width: 18rem;
+	outline: none;
+}
+
+.search-container > div > span > .fa-chevron-down {
+	background-color: rgb(235, 234, 234);
+	padding: 0.4rem;
+	border-radius: 50%;
+	color: #651fff;
+}

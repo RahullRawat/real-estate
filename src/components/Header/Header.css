@@ -1,0 +1,99 @@
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 2rem 3.5rem;
+	border-bottom: 1px solid lightgray;
+	font-family: "Poppins", sans-serif;
+	background-color: whitesmoke;
+}
+
+.nav-left {
+	display: flex;
+	align-items: center;
+}
+
+.nav-left > a > h1 {
+	font-size: 2.5rem;
+	color: #651fff;
+}
+
+.nav-left > a > h1 > i {
+	color: #651fff;
+	font-weight: bolder;
+	margin-right: 0.5rem;
+}
+
+.nav-left > ul {
+	display: flex;
+	align-items: center;
+}
+
+.nav-left > ul > li {
+	margin-left: 5rem;
+	font-size: 1.6rem;
+	list-style: none;
+	cursor: pointer;
+}
+
+.fa-chevron-down {
+	margin-left: 1rem;
+}
+
+.active {
+	color: #651fff;
+	background-color: rgb(235, 234, 234);
+	padding: 0.4rem 1rem;
+	border-radius: 0.4rem;
+}
+
+.btn {
+	width: 9rem;
+	padding: 0.8rem 1.5rem;
+	margin-left: 2rem;
+	border-radius: 0.5rem;
+	border: none;
+	cursor: pointer;
+	font-size: 1.4rem;
+	font-family: "Poppins", sans-serif;
+}
+
+.btn-login {
+	background-color: transparent;
+	color: #7455b7;
+	border: 1px solid #9a7dd7;
+}
+
+.btn-signup {
+	color: white;
+	background-color: #651fff;
+	border: 1px solid #651fff;
+}
+
+.nav-right {
+	display: flex;
+	align-items: center;
+}
+
+.nav-right > a {
+	position: relative;
+}
+
+.nav-right > a > i {
+	font-size: 2.5rem;
+	padding: 1rem;
+	border-radius: 50%;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.nav-right > a > span {
+	font-size: 1.4rem;
+	position: absolute;
+	right: 1%;
+	color: white;
+	background-color: #651fff;
+	border-radius: 50%;
+	padding: 0.2rem 0.6rem;
+	width: 2rem;
+}
